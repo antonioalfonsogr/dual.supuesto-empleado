@@ -1,7 +1,7 @@
 package supuesto.aagonzalez.empleados.repositories;
 
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface EmpleadoCrudRepository extends CrudRepository<EmpleadoEntity, Long> {
+public interface EmpleadoCrudRepository extends MongoRepository<EmpleadoEntity, Long> {
 }
